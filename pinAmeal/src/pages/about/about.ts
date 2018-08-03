@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { MapPage } from '../map/map'
+import { ResPage } from '../respage/respage'
 
 @Component({
   selector: 'page-about',
@@ -11,5 +12,8 @@ export class AboutPage {
   }
   gotomap() {
       this.navCtrl.push(MapPage);
+    }
+  gotorespage() {
+      this.navCtrl.push(ResPage);
     }
 }
