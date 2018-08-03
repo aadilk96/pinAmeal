@@ -11,3 +11,17 @@
   height: 100%;
   text-align: center;
 }
+
+.statgrid{
+  text-align: center;
+}
+
+.padtop{
+  column-gap: 0px;
+  padding: 30px 0;
+}
+page-profile{
+  .ion-col{
+    column-gap: 0;
+  }
+}

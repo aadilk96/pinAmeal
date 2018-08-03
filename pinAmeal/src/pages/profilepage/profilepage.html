@@ -16,6 +16,34 @@
     </ion-thumbnail>
   </div>
 
-  
+  <div class="padtop">
+    <ion-row>
+      <ion-col>
+        <div class="statgrid">
+          <p>Meals donated</p>
+          <h2> 2 </h2>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="statgrid">
+          <p>Meals claimed</p>
+          <h2> 0 </h2>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="statgrid">
+          <p>Ranking</p>
+          <h2> #21 </h2>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <ion-list>
+    <button (click)="openNavDetailsPage(item)" icon-start>
+      <ion-icon name="person"> </ion-icon>
+      Personal Info
+    </button>
+  </ion-list>
 
 </ion-content>
