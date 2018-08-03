@@ -10,6 +10,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { MapPage } from '../pages/map/map';
 import { ResPage } from '../pages/respage/respage';
 import { ProfilePage } from '../pages/profilepage/profilepage';
+import { DonatePage } from '../pages/donate/donate';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +24,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     MapPage,
     ResPage,
-    ProfilePage
+    ProfilePage,
+    DonatePage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     MapPage,
     ResPage,
-    ProfilePage
+    ProfilePage,
+    DonatePage
   ],
   providers: [
     StatusBar,
