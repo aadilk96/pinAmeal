@@ -17,6 +17,10 @@
   </div>
 
   <div class="padtop">
+    <h2 align="center"> Cher Lloyd </h2>
+  </div>
+
+  <div>
     <ion-row>
       <ion-col>
         <div class="statgrid">
@@ -33,16 +37,28 @@
       <ion-col>
         <div class="statgrid">
           <p>Ranking</p>
-          <h2> #21 </h2>
+          <h2> #1 </h2>
         </div>
       </ion-col>
     </ion-row>
   </div>
 
   <ion-list>
-    <button (click)="openNavDetailsPage(item)" icon-start>
+    <button ion-item>
       <ion-icon name="person"> </ion-icon>
-      Personal Info
+      Personal Information
+    </button>
+    <button ion-item>
+      <ion-icon name="card"> </ion-icon>
+      Payment Information
+    </button>
+    <button ion-item>
+      <ion-icon name="settings"> </ion-icon>
+      Settings
+    </button>
+    <button ion-item>
+      <ion-icon name="exit"> </ion-icon>
+      Logout
     </button>
   </ion-list>
 
