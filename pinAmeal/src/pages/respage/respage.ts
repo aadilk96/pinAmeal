@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DonatePage } from '../donate/donate'
 
 /**
  * Generated class for the RespagePage page.
@@ -21,5 +22,8 @@ export class ResPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad RespagePage');
   }
+  gotorespage() {
+      this.navCtrl.push(DonatePage);
+    }
 
 }
