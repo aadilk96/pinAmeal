@@ -22,7 +22,7 @@ export class ResPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad RespagePage');
   }
-  gotorespage() {
+  gotodonate() {
       this.navCtrl.push(DonatePage);
     }
 
