@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { AlertController } from 'ionic-angular'
 /**
  * Generated class for the DonatePage page.
  *
@@ -15,7 +15,27 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class DonatePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public alertCtrl: AlertController) { }
+  showConfirm() {
+    let confirm = this.alertCtrl.create({
+      title: 'Payment Confirmation',
+      message: 'A payment of 26.00AED will be charged to your card ending with ***32',
+      buttons: [
+        {
+          text: 'Disagree',
+          handler: () => {
+            console.log('Disagree clicked');
+          }
+        },
+        {
+          text: 'Agree',
+          handler: () => {
+            console.log('Agree clicked');
+          }
+        }
+      ]
+    });
+    confirm.present();
   }
 
   ionViewDidLoad() {
