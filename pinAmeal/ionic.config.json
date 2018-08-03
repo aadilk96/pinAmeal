@@ -1,0 +1,7 @@
+{
+  "name": "pinAmeal",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
