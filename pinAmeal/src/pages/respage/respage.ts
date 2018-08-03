@@ -13,7 +13,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-respage',
   templateUrl: 'respage.html',
 })
-export class RespagePage {
+export class ResPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

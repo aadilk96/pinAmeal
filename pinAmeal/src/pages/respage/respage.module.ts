@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { RespagePage } from './respage';
+import { ResPage } from './respage';
 
 @NgModule({
   declarations: [
-    RespagePage,
+    ResPage,
   ],
   imports: [
-    IonicPageModule.forChild(RespagePage),
+    IonicPageModule.forChild(ResPage),
   ],
 })
 export class RespagePageModule {}
